@@ -1,0 +1,53 @@
+<!--
+@author James Whiteman
+
+Allows the user to preview the information
+that they are about to submit. They can go to
+edit the page, or submit the info.
+-->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:f="http://xmlns.jcp.org/jsf/core"
+xmlns:h="http://xmlns.jcp.org/jsf/html"
+xmlns:jl="http://xmlns.jcp.org/jsf/composite/jsflive">
+
+<h:head>
+<title>Contested Country Registration</title>
+<h:outputStylesheet library="css" name="UserInfo.css" />
+</h:head>
+
+<h:body styleClass="bodyPage">
+<div class="divPage">
+
+   <!-- Thank You Message -->
+   <h:outputLabel styleClass="labelTitle">Preview Registration:</h:outputLabel>
+   <br/><br/>
+
+   <!-- Submitted User Info -->
+   <h:form>
+   <h:outputLabel styleClass="labelSubtitle">First Name: </h:outputLabel>
+   <h:outputLabel styleClass="labelSubtitle" value="#{beanUserInfo.firstName}" />
+   <br/>
+   <h:outputLabel styleClass="labelSubtitle">Last Name: </h:outputLabel>
+   <h:outputLabel styleClass="labelSubtitle" value="#{beanUserInfo.lastName}" />
+   <br/>
+   <h:outputLabel styleClass="labelSubtitle">Phone Number: </h:outputLabel>
+   <h:outputLabel styleClass="labelSubtitle" value="#{beanUserInfo.phoneNumber}" />
+   <br/>
+   <h:outputLabel styleClass="labelSubtitle">Zip Code: </h:outputLabel>
+   <h:outputLabel styleClass="labelSubtitle" value="#{beanUserInfo.zipCode}" />
+   <br/>
+   <h:outputLabel styleClass="labelSubtitle">Party: </h:outputLabel>
+   <h:outputLabel styleClass="labelSubtitle" value="#{beanUserInfo.getPartyName()}" />
+   <br/>
+   <h:outputLabel styleClass="labelSubtitle">Braille: </h:outputLabel>
+   <h:outputLabel styleClass="labelSubtitle" value="#{beanUserInfo.getBrailleStatus()}" />
+   <br/>
+   <h:commandButton styleClass="buttonSubmit" value="Edit" type="submit" action="pageEdit" />
+   <h:commandButton styleClass="buttonSubmit" value="Submit" type="submit" action="#{beanUserInfo.infoSubmitted()}" />
+   </h:form>
+</div>
+</h:body>
+
+</html>

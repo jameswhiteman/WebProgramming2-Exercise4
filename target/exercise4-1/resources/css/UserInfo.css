@@ -1,0 +1,92 @@
+.bodyPage {
+	margin: auto;
+	background-color: #5555BB;
+}
+
+.divPage {
+	width: 640px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	padding: 20px;
+	border:3px solid;
+	border-color: #000066;
+	border-radius:15px;
+	background-color: #FFFFFF;
+}
+
+.labelTitle {
+	display: block;
+	width: auto;
+	margin: auto;
+	text-align: center;
+	font-family: "Sans-Serif";
+	font-size: 24px;
+	font-weight: 800px
+}
+
+.labelSubtitle {
+	display: block;
+	margin: auto;
+	width: auto;
+	text-align: center;
+	font-family: "Sans-Serif";
+	font-size: 18px;
+	font-weight: 600px;
+	font-style: italic;
+}
+
+.labelUserInfo {
+	display: inline-block;
+	width: 125px;
+	height: 20px;
+	float: left;
+	clear: left;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: right;
+	font-family: "Sans-Serif";
+	font-size:15px;
+	font-weight: 800;
+}
+
+.labelError {
+	font-size: 10px;
+	font-weight: 300;
+	color: #FF0000;
+}
+
+.inputUserInfo {
+	display: inline-block;
+	width: 250px;
+	height: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	vertical-align: middle;
+	float: left;
+	font-family: "Sans-Serif";
+	font-size:14px;
+}
+
+.partyRadio {
+	display: block;
+	float: left;
+	font-family: "Sans-Serif";
+	font-size:14px;
+}
+
+.partyRadioItem {
+	display: block;
+	float: none;
+	font-family: "Sans-Serif";
+	font-size:14px;
+}
+
+.buttonSubmit {
+	display: block;
+	float: none;
+	font-family: "Sans-Serif";
+	font-size:14px;
+}

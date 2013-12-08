@@ -1,0 +1,71 @@
+/* Main Page */
+.bodyPage {
+	width: auto;
+	height: auto;
+	margin: auto;
+	font-family: "Arial";
+	background-color: #2222BB;
+}
+
+.divPage {
+	width: 600px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: auto;
+	padding: 50px;
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 25px;
+	border-color: #333333;
+	background-color: #FFFFFF;
+}
+
+/* Header */
+a:link {
+	width: auto;
+	height: auto;
+	margin: auto;
+	color: #CCCCCC;
+	font-family: "Arial";
+	text-align: center;
+	text-decoration: none;
+}
+
+a:visited {
+	width: auto;
+	height: auto;
+	margin: auto;
+	color: #CCCCCC;
+	font-family: "Arial";
+	text-align: center;
+	text-decoration: none;
+}
+
+a:hover {
+	width: auto;
+	height: auto;
+	margin: auto;
+	color: #CCCCCC;
+	font-family: "Arial";
+	text-align: center;
+	text-decoration: none;
+}
+
+a:active {
+	width: auto;
+	height: auto;
+	margin: auto;
+	color: #CCCCCC;
+	font-family: "Arial";
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Footer */
+
+
+.spanListings {
+	white-space: pre;
+}
